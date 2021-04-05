@@ -1,3 +1,3 @@
-start
-이거 맞나??'
-아닌가??
+commit
+push 
+pull
