@@ -17,13 +17,6 @@ def solution(board, moves):
                     break
             else:
                 break
-
-
-
-
-
-
-
     collect_dq=collections.deque(collect)
     a=collect_dq.popleft()
     stack.append(a)
