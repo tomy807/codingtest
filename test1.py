@@ -21,7 +21,15 @@ print(type(a))
 print(dqlist)
 answer=0
 stack=[]
-collect=[1,1,1,1,1]
+collect=[1,2,3,4,5]
+it=iter(collect)    #iter next 이용해보기
+while True:
+    try: 
+        data=next(it)
+        print(data)
+    except StopIteration:
+        print("end")
+        break
 collect_dq=collections.deque(collect)
 a=collect_dq.popleft()
 stack.append(a)
@@ -36,3 +44,7 @@ while collect_dq:
     else:
         stack.append(b)
 print(answer)
+from itertools import combinations
+items=[1,2,3,4,5]
+z=list(map(lambda x:x[0]+x[1],combinations(items,2))) 
+print(list(set(z)))
