@@ -48,3 +48,18 @@ from itertools import combinations
 items=[1,2,3,4,5]
 z=list(map(lambda x:x[0]+x[1],combinations(items,2))) 
 print(list(set(z)))
+akowk="aBc_&^&*_"
+import string
+def listAlphabet():
+  return list(string.ascii_lowercase)
+alp=list(string.ascii_lowercase)
+print('a' in alp)
+stralp="abcdeks"
+for i in range((len(stralp))):
+    print(i)
+    print(stralp[i])
+print(akowk.lower())
+qwer='.........abcdsed.........'
+qw='1223'
+qwer=qwer.strip('.')
+print(qwer)
