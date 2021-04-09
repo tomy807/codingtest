@@ -63,3 +63,13 @@ qwer='.........abcdsed.........'
 qw='1223'
 qwer=qwer.strip('.')
 print(qwer)
+ten=45
+three=[]
+while True:
+    three.append(ten%3)
+    ten=ten//3
+    if ten<3:
+        three.append(ten)
+        break
+print(three)
+print(3^5)
