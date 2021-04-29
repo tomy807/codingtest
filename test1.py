@@ -121,7 +121,17 @@
 # a='((()))'
 # n=a.translate({ord('('):')',ord(')'):'('})
 # print(n)
-if "":
-    print("abcd")
-else:
-    print("dnaid")
+# if "":
+#     print("abcd")
+# else:
+#     print("dnaid")
+# str2="abcde"
+# str1="abczolw"
+# str_set=set(str2)
+# str_set1=set(str1)
+# a=str_set-str_set1
+# print(a)
+import itertools
+a={'A', 'D', 'E'}
+b=list(map(set,itertools.combinations(a, 2)))
+print(list(b)[0])
