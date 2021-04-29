@@ -78,15 +78,15 @@
 # dic=Counter(lis1)
 # print(dic)
 # print(dic.values)    x+y+z-6   y+z-8   -x+2*y+2*z-4
-from sympy import *
-import numpy 
-import itertools
-x1=Symbol('x1')
-x2=Symbol('x2')
-x3=Symbol('x3')
-x4=Symbol('x4')
-x5=Symbol('x5')
-x6=Symbol('x6')
+# from sympy import *
+# import numpy 
+# import itertools
+# x1=Symbol('x1')
+# x2=Symbol('x2')
+# x3=Symbol('x3')
+# x4=Symbol('x4')
+# x5=Symbol('x5')
+# x6=Symbol('x6')
 # equation1= x1+x2+x3-6
 # equation2= x2+2*x3-8
 # equation3= -x1+2*x2+2*x3-4
@@ -101,20 +101,27 @@ x6=Symbol('x6')
 #     print(-x1+2*x2+2*x3-4)
 # print(solve((equation1,equation2,equation3),dict=True))
 # print(solve([]))
-A=Matrix([[1,0,1],[0,0,2],[-1,-1,2]])
-B=Matrix([[-1,0,1],[0,-1,1],[0,0,2]])
-C=Matrix([6,8,4])
-D=Matrix([x4,x5,x2])
-D1=Matrix([x1,x6,x3])
-Ainv=A.inv()
-E=Ainv*C
-F=Ainv*B*D
-print(Ainv)
-print(E)
-print(Ainv*B)
-print(F)
-print(E-F)
-D1=E-F
-print(D1)
-equ=2*D1[0]+10*x2+8*D1[2]
-print(equ)
+# A=Matrix([[1,0,1],[0,0,2],[-1,-1,2]])
+# B=Matrix([[-1,0,1],[0,-1,1],[0,0,2]])
+# C=Matrix([6,8,4])
+# D=Matrix([x4,x5,x2])
+# D1=Matrix([x1,x6,x3])
+# Ainv=A.inv()
+# E=Ainv*C
+# F=Ainv*B*D
+# print(Ainv)
+# print(E)
+# print(Ainv*B)
+# print(F)
+# print(E-F)
+# D1=E-F
+# print(D1)
+# equ=2*D1[0]+10*x2+8*D1[2]
+# print(equ)
+# a='((()))'
+# n=a.translate({ord('('):')',ord(')'):'('})
+# print(n)
+if "":
+    print("abcd")
+else:
+    print("dnaid")
