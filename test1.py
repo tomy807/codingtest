@@ -131,7 +131,46 @@
 # str_set1=set(str1)
 # a=str_set-str_set1
 # print(a)
-import itertools
-a={'A', 'D', 'E'}
-b=list(map(set,itertools.combinations(a, 2)))
-print(list(b)[0])
+# import itertools
+# a={'A', 'D', 'E'}
+# b=list(map(set,itertools.combinations(a, 2)))
+# print(list(b)[0])
+# import re
+# a="- and - and - and chicken 100"
+# b=a.replace('and','').split()
+# # b=b.split()
+# c="java backend junior pizza 150"
+# d=c.split()
+# print(b)
+# print(d)
+# a=[]
+# str_1='1234'
+# str_2=str_1+'가너다'
+# a.append(str_2)
+# print(a)
+# i=["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]
+# a="Enter uid1234 Muzi"
+# print(a.split())
+# z,x,y="Enter uid1234 Muzi".split()
+# print(y)
+# print(["Prodo님이 들어왔습니다.","Ryan님이 들어왔습니다.","Prodo님이 나갔습니다.","Prodo님이 들어왔습니다."]==['Prodo님이 들어왔습니다.', 'Ryan님이 들어왔습니다.', 'Prodo님이 나갔습니다', 'Prodo님이 들어왔습니다.'])
+# matrix=[[i+j*3 for i in range(1,4)] for j in range(4)]
+# print(matrix)
+# from collections import defaultdict
+# dic=defaultdict(list)
+# dic[1].append(2)
+# dic[2]=1
+# li=[]
+# li.append(1)
+# print(dic)
+# k=[1,2,3,4]
+ground=[[0 for _ in range(2)] for _ in range(7)]
+print(ground[6][1])
+# a=[[1,2],[2,3]]
+# print([1,2] not in a)
+# import sys
+# maze=[]
+# for _ in range(2):
+#     y=list(map(int,list(sys.stdin.readline().strip())))
+#     maze.append(y) 
+# print(maze)
