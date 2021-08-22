@@ -1,6 +1,5 @@
 import sys
 from collections import deque
-import pprint
 
 x_lenght, y_lenght=map(int,sys.stdin.readline().split())
 ground=[]
