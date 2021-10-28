@@ -22,3 +22,4 @@ def solution(a, b):
 
 print(solution(1,31))
 
+
