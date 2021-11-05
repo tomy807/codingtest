@@ -12,7 +12,6 @@ elif len(str(N))==3:
                 answer+=str(i+dx)+str(i+dx*2)
                 hundred.append(int(answer))
     count=0
-    print(hundred)
     for i in hundred:
         if i <=N:
             count+=1
