@@ -13,6 +13,7 @@ def solution(arr):
                     rec(a+nn, b+nn, nn)
                     return
         answer[number]+=1
+    
     rec(0, 0, len(arr))
     return answer
 print(solution([[1,1,0,0],[1,0,0,0],[1,0,0,1],[1,1,1,1]]))
