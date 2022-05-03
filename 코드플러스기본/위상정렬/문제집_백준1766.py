@@ -19,4 +19,5 @@ while heap:
         inDegree[i]-=1
         if inDegree[i]==0:
             heapq.heappush(heap,i)
-print(answer)
+for i in answer:
+    print(i,end=' ')
