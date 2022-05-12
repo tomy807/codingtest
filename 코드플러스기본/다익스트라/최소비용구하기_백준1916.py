@@ -21,4 +21,4 @@ while(queue):
             if distance<distances[new_node]:
                 distances[new_node]=distance
                 queue.append((new_node,distance))
-print(distances[target])
+print(distances)
